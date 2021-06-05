@@ -1,12 +1,14 @@
 {
-  "name": "Next.JS Progressive Web App",
-  "short_name": "Next PWA",
-  "theme_color": "#ffffff",
-  "background_color": "#004740",
+  "short_name": "just short name",
+  "name": "just name",
+  "lang": "en",
+  "description": "just descr",
+  "start_url": "/",
+  "background_color": "#782bd2",
+  "theme_color": "#61f158",
+  "dir": "ltr",
   "display": "fullscreen",
   "orientation": "portrait",
-  "scope": "/",
-  "start_url": "/",
   "icons": [
     {
       "src": "icons/icon-72x72.png",
