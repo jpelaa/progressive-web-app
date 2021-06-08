@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import '../styles/globals.css'
+import Head from "next/head";
+import "../styles/globals.css";
 
 export default function MyApp({ Component, pageProps }) {
   return (
@@ -13,7 +13,7 @@ export default function MyApp({ Component, pageProps }) {
         />
         <meta name="description" content="Description" />
         <meta name="keywords" content="Keywords" />
-        <title>Just PWA</title>
+        <title>Jpelaa</title>
 
         <link rel="manifest" href="/manifest.json" />
         <link
@@ -29,9 +29,9 @@ export default function MyApp({ Component, pageProps }) {
           sizes="32x32"
         />
         <link rel="apple-touch-icon" href="/apple-icon.png"></link>
-        <meta name="theme-color" content="#317EFB" />
+        <meta name="theme-color" content="#ac66cc" />
       </Head>
       <Component {...pageProps} />
     </>
-  )
+  );
 }
